@@ -1,6 +1,5 @@
 pub fn two_sum(nums: &Vec<i32>, target: i32) -> Vec<i32> {
     let mut values: Vec<i32> = Vec::new();
-    let mut tgt = i32::MAX;
     for n in 0..nums.len() {
         let mut j = n + 1;
         //handle every number combination
